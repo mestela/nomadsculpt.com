@@ -11,9 +11,11 @@ If this is your first time doing 3d sculpting, then it's good to know some basic
 ::: tip Prefer video?
 Youtube now has a LOT of beginner video tutorials, here are some great links:
 
-* [Nomad Sculpt Crash Course by Dave Reed](https://www.youtube.com/watch?v=42Qak3b0bPE)
-* [Nomad Sculpt Beginner tutorial by Small Robot Studio](https://www.youtube.com/watch?v=7lQgnr4OnK0)
-* [NOMAD FOR BEGINNERS series by SouthernGFX](https://www.youtube.com/watch?v=4eraz4IQwwc&list=PLMiwb2mOovgyBFWHiHHZNbTZtjn5HapuZ)
+* [Nomad Sculpt Crash Course by Dave Reed](https://www.youtube.com/watch?v=69m86ICy2Q4)
+* [Nomad Sculpt Beginner tutorial by Small Robot Studio](https://www.youtube.com/watch?v=J644wXoTiww)
+* [NOMAD FOR BEGINNERS series by SouthernGFX](https://www.youtube.com/watch?v=bEh0WxRoOmg)
+
+It's worth checking the main channel for those creators, they frequently post new tutorials.
 :::
 
 ## Your first sculpt
