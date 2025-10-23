@@ -56,6 +56,25 @@ If you make a mistake, a 2 finger tap will undo, or use the undo button in the l
 
 ![](./videos/gettingstarted_09.mp4)
 
+::: tip Desktop release
+On desktop, the alt/opt key is used to control the camera:
+
+* tip drag in empty space = rotate camera
+* alt+tip drag = pan
+* alt+tip drag, then let go of alt = zoom (same as zbrush)
+
+With Wacom tablets that have 2 or more buttons on the pen, use the Wacom settings to configure the tip and buttons like this:
+
+* tip = left click
+* lower rocker = middle click
+* upper rocker = right click
+
+With those settings, you can manipulate the camera purely with the pen:
+
+* upper rocker and hover move = rotate camera
+* lower rocker and hover move = pan
+:::
+
 ## Add color
 
 Nomad allows you to paint the surface of your sculpt. From the tool menu on the right, find the `Paint` tool, and click it. On the left toolbar a colored sphere will appear. Click it, this will bring up a color selector. Choose a color, and paint on your model.

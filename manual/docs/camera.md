@@ -40,6 +40,25 @@ You can *roll* the view by rotating *two* fingers.
 This gesture is only available for `trackball` rotation mode.
 :::
 
+### Desktop controls
+
+On desktop, the alt/opt key is used to control the camera:
+
+* tip drag in empty space = rotate camera
+* alt+tip drag = pan
+* alt+tip drag, then let go of alt = zoom (same as zbrush)
+
+With Wacom tablets that have 2 or more buttons on the pen, use the Wacom settings to configure the tip and buttons like this:
+
+* tip = left click
+* lower rocker = middle click
+* upper rocker = right click
+
+With those settings, you can manipulate the camera purely with the pen:
+
+* upper rocker and hover move = rotate camera
+* lower rocker and hover move = pan
+
 ## Camera controls
 
 ![](./images/camera_list.webp)
