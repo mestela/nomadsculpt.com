@@ -232,8 +232,27 @@ Note that the masked areas won't be decimated.
 
 ![](./videos/decimate.mp4)
 
+::: tip
+
+Using the [Quadremesh tool](tools.md#quad-remesher) on high poly objects can take a long time to calculate, and give results that are hard to control. Pre-processing the mesh with [facegroups](tools.md#facegroup-1) and decimate will make Quadremesh run much faster, and allow much more control over topology.
+
+* Facegroup the mesh to define your ideal quad flow.
+* Facegroup relax to get smooth facegroup borders.
+* Decimate. This will ensure you have no thin or distorted faces on the facegroup edge. In the decimate settings ensure facegroup is enabled. This will make triangle edges follow your facegroup edges precisely.
+* In the Quadremesh options ensure relax is disabled (as you have already relaxed the mesh) and you should get good results.
+
+:::
+
 #### Decimate
 Start the decimate operation.
+
+The icons next to the decimate button allow you toggle options that affect decimation. The percent indicates how strong that option is, and can be set in the advanced gear menu.
+
+* ![](./icons/palette.webp)  `Preserve Painting` - Place more triangles where there is painting detail.
+* ![](./icons/triforce.webp) `Uniform Faces` - Prefer making evenly sized triangles.
+* ![](./icons/hole.webp)  `Preserve Geometry Borders` - Decimate will try to keep borders near open geometry and holes unchanged.
+* ![](./icons/facegroup.webp) `Preserve Facegroup Borders` - Decimate will try to keep facegroup borders unchanged.
+* ![](./icons/checkerboard.webp) `Preserve UV Borders` - Decimate will try to keep UV borders unchanged.
 
 #### ![](./icons/cog.webp) Decimate gear menu
 The gear menu has these advanced options:
@@ -249,6 +268,7 @@ Enable to stop borders being decimated. Border weights can be selected for `Geom
 
 #### Target triangles
 Set the target triangle count. The default value is 50%, the percent/target button will toggle between a percentage or an exact target poly count.
+
 
 
 ### UV Unwrap - UVAtlas
